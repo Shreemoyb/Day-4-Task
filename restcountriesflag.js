@@ -4,7 +4,7 @@
 
 const countriesRequest = new XMLHttpRequest();
 
-countriesRequest.open('GET', 'https://restcountries.com/v3.1/name/all');
+countriesRequest.open('GET', 'https://restcountries.com/v3.1/all');
 
 countriesRequest.send();
 
